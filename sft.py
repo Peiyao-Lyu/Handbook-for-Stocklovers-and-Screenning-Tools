@@ -168,7 +168,7 @@ def assets(ticker):
     return financial(ticker,BS=1)[1]['Assets']
 
 def liabilities(ticker):
-    return financial(ticker,BS=1)[1]['liabilities']
+    return financial(ticker,BS=1)[1]['Liabilities']
 
 def equity(ticker):
     return financial(ticker,BS=1)[1]['Equity']
@@ -234,7 +234,7 @@ def est_revenue(ticker):
     
     
 def history_earnings(ticker):
-    return self.complete_analysis(ticker)[1]['Earnings History']
+    return complete_analysis(ticker)[1]['Earnings History']
     
     
 def EPS_trend(ticker):
