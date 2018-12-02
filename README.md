@@ -1,5 +1,5 @@
 ## Introduction:
-**sft**, which stands for Simplified Finance Terminal, is a comprehensive python finance library. It aims to provide up-to-date information for finance enthusiasts. Users can directly access information of the market and public companies based on their needs. Users can apply the functions in sft to extract financial data, apply investment strategies, obtain financial statements, visualize market performance, and so on. 
+**sft**, which stands for **Simplified Finance Terminal**, is a comprehensive python finance library. It aims to provide up-to-date information for finance enthusiasts. Users can directly access information of the market and public companies based on their needs. Users can apply the functions in sft to extract financial data, apply investment strategies, obtain financial statements, visualize market performance, and so on. 
 
 ## Project Group:
 - Group name: SFT Group
@@ -21,12 +21,12 @@ The terminal includes 4 basic investment strategies derived from the following i
 - etc.
 
 ## Run Instruction:
-1. Import sft
+**1. Import sft**
 
 ![](https://github.com/Peiyao-Lyu/Handbook-for-Stocklovers-and-Screenning-Tools/blob/master/import.png)
 
 
-2. Use methods according to user’s needs
+**2. Use methods according to user’s needs**
 ![](https://github.com/Peiyao-Lyu/Handbook-for-Stocklovers-and-Screenning-Tools/blob/master/ex1.png)
 
 ![](https://github.com/Peiyao-Lyu/Handbook-for-Stocklovers-and-Screenning-Tools/blob/master/ex2.png)
@@ -35,116 +35,117 @@ The terminal includes 4 basic investment strategies derived from the following i
 **overview**(ticker -> str):<br /> 
 Return the overview of the company in string format. The argument must be a correct ticker of a listed company in string format.
 
-**governance**(ticker -> str): Return the overview of the company’s corporate governance in string format, including different assessment scores. The argument must be a correct ticker of a listed company in string format.
+**governance**(ticker -> str): <br /> 
+Return the overview of the company’s corporate governance in string format, including different assessment scores. The argument must be a correct ticker of a listed company in string format.
 
-**summary**(ticker -> str): 
+**summary**(ticker -> str): <br /> 
 Return a set of indices about the company’s stock price and fundamental financial ratios in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**ratios**(ticker -> str): 
+**ratios**(ticker -> str): <br /> 
 Return a set of financial ratios of the company, including but not limited to profit margin, ROA, ROE, etc. in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**executives**(ticker -> str): 
+**executives**(ticker -> str): <br /> 
 Return a pandas DataFrame including the name, title, salary, exercised option and year of birth of the major executives of the company. The argument must be a correct ticker of a listed company in string format.
 
-**IS**(ticker -> str): 
+**IS**(ticker -> str): <br /> 
 Print the income statement of the company in the last four fiscal periods (if available) in a list of pandas DataFrames. The argument must be a correct ticker of a listed company in string format.
 
-**BS**(ticker -> str): 
+**BS**(ticker -> str): <br /> 
 Print the balance sheet of the company in the last four fiscal periods (if available) in a list of pandas DataFrames. The argument must be a correct ticker of a listed company in string format.
 
-**CF**(ticker -> str): 
+**CF**(ticker -> str): <br /> 
 Print the statement of cash flows of the company in the last four fiscal periods (if available) in a list of pandas DataFrames. The argument must be a correct ticker of a listed company in string format.
 
-**revenue**(ticker -> str): 
+**revenue**(ticker -> str): <br /> 
 Return the revenues financials of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**operating_expenses**(ticker -> str): 
+**operating_expenses**(ticker -> str): <br /> 
 Return the operating expenses financials of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**non_recurring**(ticker -> str): 
+**non_recurring**(ticker -> str): <br /> 
 Return the financials related to the non-recurring events of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**net_income**(ticker -> str): 
+**net_income**(ticker -> str): <br /> 
 Return the net income financials of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 assets(ticker -> str)
 Return the assets financials of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**liabilities**(ticker -> str): 
+**liabilities**(ticker -> str): <br /> 
 Return the liabilities financials of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**equity**(ticker -> str): 
+**equity**(ticker -> str): <br /> 
 Return the equity financials of the company in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**CFO**(ticker -> str): 
+**CFO**(ticker -> str): <br /> 
 Return the information of the the company’s cash flow from operating activities in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**CFI**(ticker -> str): 
+**CFI**(ticker -> str): <br /> 
 Return the information of the the company’s cash flow from investing activities in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**CFF**(ticker -> str): 
+**CFF**(ticker -> str): <br /> 
 Return the information of the the company’s cash flow from financing activities in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**cash**(ticker -> str):
+**cash**(ticker -> str): <br /> 
 Return the information of the the company’s change in cash and cash equivalents in the most recent four accounting periods (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**analysis**(ticker -> str): 
+**analysis**(ticker -> str): <br /> 
 Print an overall analysis of the the company’s earning, revenues, EPS, etc. (if available) in a list of pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**est_earnings**(ticker -> str): 
+**est_earnings**(ticker -> str): <br /> 
 Return the information of the the company’s earnings estimate (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**est_revenue**(ticker -> str): 
+**est_revenue**(ticker -> str): <br /> 
 Return the information of the the company’s revenue estimate (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**history_earnings**(ticker -> str): 
+**history_earnings**(ticker -> str): <br /> 
 Return the information of the the company’s history earnings (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**EPS_trend**(ticker -> str): 
+**EPS_trend**(ticker -> str): <br /> 
 Return the information of the the company’s EPS trend (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**EPS_revision**(ticker -> str): 
+**EPS_revision**(ticker -> str): <br /> 
 Return the information of the the company’s EPS revisions (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**est_growth**(ticker -> str): 
+**est_growth**(ticker -> str): <br /> 
 Return the information of the the company’s earnings estimate (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**holders**(ticker -> str): 
+**holders**(ticker -> str): <br /> 
   Print the overall information of the the company’s holders (if available) in a list of pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**major_holders**(ticker -> str): 
+**major_holders**(ticker -> str): <br /> 
   Return the information of the the company’s major holders  (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**ins_holders**(ticker -> str): 
+**ins_holders**(ticker -> str): <br /> 
   Return the information of the the company’s institutional holders (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**mf_holders**(ticker -> str): 
+**mf_holders**(ticker -> str): <br /> 
   Return the information of the the company’s mutual fund holders (if available) in a pandas DataFrame. The argument must be a correct ticker of a listed company in string format.
 
-**trading**(ticker,sd,ed): 
+**trading**(ticker,sd,ed): <br /> 
   Return a dataframe containing price information of ticker from sd to ed
   Input format: start date = ‘YYYY-MM-DD’ , end date = ‘YYYY-MM-DD’
   
-**SMA**(ticker, sd, ed, window):
+**SMA**(ticker, sd, ed, window):<br /> 
 	Show the plot of SMA and close price from sd to ed
   Return a dataframe with simple moving average and cumulative sum, and cumulative return in a tuple form
   Input format: sd = ‘YYYY-MM-DD’ , ed = ‘YYYY-MM-DD'
 
-**EMA**(ticker, sd, ed, window):
+**EMA**(ticker, sd, ed, window): <br /> 
 	Show the plot of EMA and close price from sd to ed
   Return a dataframe with exponential moving average and cumulative sum, and cumulative return in a tuple form
   Input format: sd = ‘YYYY-MM-DD’ , ed = ‘YYYY-MM-DD’
 
-**MR**(ticker, sd, ed,s_window,l_window):
+**MR**(ticker, sd, ed,s_window,l_window): <br /> 
 	Show the plot of short-term and long-term SMAs and close price from sd to ed
   Return a dataframe with long signal, short signal and cumulative sum, and cumulative return in a tuple form
 	Input format: sd = ‘YYYY-MM-DD’ , ed = ‘YYYY-MM-DD’
 
-**RSI**(ticker, sd, ed, window):
+**RSI**(ticker, sd, ed, window): <br /> 
 	Show the plot of RSI from sd to ed
   Return a dataframe with RSI and cumulative sum, and cumulative return in a tuple form
   Input format: sd = ‘YYYY-MM-DD’ , ed = ‘YYYY-MM-DD’
 
-**Recommend**(ticker,sd, ed):
+**Recommend**(ticker,sd, ed): <br /> 
 	Show the plot of SMA and close price from sd to ed
 	Show the plot of EMA and close price from sd to ed
 	Show the plot of short-term and long-term SMAs and close price from sd to ed
@@ -153,32 +154,32 @@ Return the information of the the company’s earnings estimate (if available) i
 	Return a dataframe containing the cumulative return for each investment strategy
   Input format: sd = ‘YYYY-MM-DD’ , ed = ‘YYYY-MM-DD’
 
-**index**():
+**index**(): <br /> 
 Return a dataframe containing the current data, change, and percentage change for Nasdaq, S&P, DJIA
 
-**industry**():
+**industry**(): <br /> 
 	Print out the current strong and weak industries
 
-**market_news**():
+**market_news**(): <br /> 
 	Print out the current market news
 
-**SNP**(start,end):
+**SNP**(start,end): <br /> 
 	Show the plot of S&P from start to end
 
-**DJI**(start,end):
+**DJI**(start,end): <br /> 
 	Show the plot of DJIA from start to end
 
-**IXIC**(start,end):
+**IXIC**(start,end): <br /> 
 	Show the plot of Nasdaq from start to end
 
-**best_performers**(x=1): 
+**best_performers**(x=1): <br /> 
 Returns a word cloud of the names of best performing stocks and a dataframe of these stocks and their percentage changes in a given period. For daily best performing stocks, input 1; weekly: 2; monthly: 3; quarterly: 4; yearly: 5.
 
-**major_index**():
+**major_index**(): <br /> 
 	Returns the names and the most current values of 19 major U.S. Stock indexes.
 
-**forex**():
+**forex**(): <br /> 
 	Returns a most current cross currency table including U.S. Dollars, Euros, British Pounds, Japanese Yen, and Chinese Yuan.
 
-**futures**():
+**futures**(): <br /> 
 	Returns a dataframe of 117 major futures contracts with up-to-date market prices, price changes, and price percentage changes.
