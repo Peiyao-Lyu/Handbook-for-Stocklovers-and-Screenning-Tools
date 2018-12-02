@@ -173,13 +173,13 @@ Return a dataframe containing the current data, change, and percentage change fo
 	Show the plot of Nasdaq from start to end
 
 **best_performers**(x=1): <br /> 
-Returns a word cloud of the names of best performing stocks and a dataframe of these stocks and their percentage changes in a given period. For daily best performing stocks, input 1; weekly: 2; monthly: 3; quarterly: 4; yearly: 5.
+Return a word cloud of the names of best performing stocks and a dataframe of these stocks and their percentage changes in a given period. For daily best performing stocks, input 1; weekly: 2; monthly: 3; quarterly: 4; yearly: 5.
 
 **major_index**(): <br /> 
-	Returns the names and the most current values of 19 major U.S. Stock indexes.
+	Return the names and the most current values of 19 major U.S. Stock indexes.
 
 **forex**(): <br /> 
-	Returns a most current cross currency table including U.S. Dollars, Euros, British Pounds, Japanese Yen, and Chinese Yuan.
+	Return a most current cross currency table including U.S. Dollars, Euros, British Pounds, Japanese Yen, and Chinese Yuan.
 
 **futures**(): <br /> 
-	Returns a dataframe of 117 major futures contracts with up-to-date market prices, price changes, and price percentage changes.
+	Return a dataframe of 117 major futures contracts with up-to-date market prices, price changes, and price percentage changes.
