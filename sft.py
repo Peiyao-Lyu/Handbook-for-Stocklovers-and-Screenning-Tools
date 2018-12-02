@@ -55,8 +55,8 @@ def ratios(ticker):
 	Finicial_ratio_list = [sel_indices,sel_values]
 
 	df = pd.DataFrame(Finicial_ratio_list).transpose()
-	df.columns = ["Finicial Ratio", "Value"]
-	df.set_index("Finicial Ratio", inplace = True)
+	df.columns = ["Financial Ratio", "Value"]
+	df.set_index("Financial Ratio", inplace = True)
 	return df
 
 def executives(ticker):
