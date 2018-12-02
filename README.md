@@ -18,6 +18,7 @@ The terminal includes 4 basic investment strategies derived from the following i
 - BeautifulSoup 
 - Pandas
 - Numpy
+- matplotlib
 - etc.
 
 ## Run Instruction:
