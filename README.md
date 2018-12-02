@@ -1,5 +1,5 @@
 ## Introduction:
-sft, which stands for Simplified Finance Terminal, is a comprehensive python finance library. It aims to provide up-to-date information for finance enthusiasts. Users can directly access information of the market and public companies based on their needs. Users can apply the functions in sft to extract financial data, apply investment strategies, obtain financial statements, visualize market performance, and so on. 
+**sft**, which stands for Simplified Finance Terminal, is a comprehensive python finance library. It aims to provide up-to-date information for finance enthusiasts. Users can directly access information of the market and public companies based on their needs. Users can apply the functions in sft to extract financial data, apply investment strategies, obtain financial statements, visualize market performance, and so on. 
 
 ## Project Group:
 - Group name: SFT Group
@@ -32,7 +32,7 @@ The terminal includes 4 basic investment strategies derived from the following i
 ![](https://github.com/Peiyao-Lyu/Handbook-for-Stocklovers-and-Screenning-Tools/blob/master/ex2.png)
 
 ## Documentations:
-**overview**(ticker -> str): 
+**overview**(ticker -> str):<br /> 
 Return the overview of the company in string format. The argument must be a correct ticker of a listed company in string format.
 
 **governance**(ticker -> str): Return the overview of the company’s corporate governance in string format, including different assessment scores. The argument must be a correct ticker of a listed company in string format.
