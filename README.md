@@ -22,7 +22,7 @@ The terminal includes 4 basic investment strategies derived from the following i
 - etc.
 
 ## Run Instruction:
-**1. Import sft**
+**1. Download sft.py and import sft**
 
 ![](https://github.com/Peiyao-Lyu/Handbook-for-Stocklovers-and-Screenning-Tools/blob/master/import.png)
 
